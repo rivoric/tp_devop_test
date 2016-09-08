@@ -11,6 +11,14 @@ Test automation piece. Runs against a remote Ubuntu server and does the followin
 
 For the purpose of the test I am assuming I have SSH access to the server
 and the user account can sudo in order to get admin rights.
-In case the server does not have openssh installed,
-see the following for installation instructions
-https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
+The repository contains the following directories
+
+cfn
+---
+
+Cloudformation template that creates a suitable server to run the test against
+
+sh
+--
+
+First attempt at a solution using the most basic tool, a bash script.
