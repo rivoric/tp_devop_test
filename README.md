@@ -16,7 +16,7 @@ The repository contains the following directories
 cfn
 ---
 
-Cloudformation template that creates a suitable server to run the test against
+Cloudformation template that creates a suitable server to run the test against.
 
 sh
 --
