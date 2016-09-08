@@ -11,7 +11,7 @@ sudo apt-get upgrade -y
 sudo apt-get install ufw -y
 
 # enable UFW
-sudo ufw enable -y
+echo y | sudo ufw enable
 
 # get uptime
 echo Uptime of computer before restart
