@@ -10,6 +10,9 @@ sudo apt-get upgrade -y
 # install ufw (may already be installed)
 sudo apt-get install ufw -y
 
+# enable ssh through firewall (very important)
+sudo ufw allow ssh
+
 # enable UFW
 echo y | sudo ufw enable
 
