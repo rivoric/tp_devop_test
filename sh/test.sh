@@ -10,8 +10,12 @@ sudo apt-get upgrade -y
 # install ufw (may already be installed)
 sudo apt-get install ufw -y
 
+# enable UFW
+sudo ufw enable -y
+
 # get uptime
 echo Uptime of computer before restart
 uptime
 
-# tbc (enable firewall and reboot)
+# reboot
+sudo reboot now
